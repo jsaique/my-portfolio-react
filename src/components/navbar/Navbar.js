@@ -13,7 +13,7 @@ const Navbar = () => {
         <ul className="flex items-center gap-10">
           {navLinksData.map(({ _id, title, link }) => (
             <li
-              className="text-base font-normal text-grey-400 tracking-wide cursor-pointer hover:text-designColor duratinon-300"
+              className="text-base font-normal text-gray400 tracking-wide cursor-pointer hover:text-designColor duratinon-300"
               key={_id}
             >
               <Link

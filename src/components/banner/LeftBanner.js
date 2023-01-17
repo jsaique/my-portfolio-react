@@ -24,11 +24,11 @@ const LeftBanner = () => {
         <span className="text-lg font-normal uppercase">
           Welcome to my Portfolio
         </span>
-        <h1 className="text-6xl font-bold text-white">
+        <h1 className="text-6xl font-bold text-lightColor">
           Hi, I'm
           <span className="text-designColor capitalize"> John Aries</span>
         </h1>
-        <h2 className="text-4xl font-bold text-white">
+        <h2 className="text-4xl font-bold text-lightColor">
           a <span>{text}</span>
           <Cursor
             cursorBlinking="false"
@@ -47,18 +47,34 @@ const LeftBanner = () => {
             Find Me In
           </h2>
           <div className="flex gap-4">
-            <span className="bannerIcon">
+            <a
+              className="bannerIcon"
+              href="https://www.facebook.com/johnsaique"
+              target={0}
+            >
               <FaFacebookF />
-            </span>
-            <span className="bannerIcon">
+            </a>
+            <a
+              className="bannerIcon"
+              href="https://www.instagram.com/just_zaki_/"
+              target={0}
+            >
               <FaInstagram />
-            </span>
-            <span className="bannerIcon">
+            </a>
+            <a
+              className="bannerIcon"
+              href="https://github.com/jsaique"
+              target={0}
+            >
               <FaGithub />
-            </span>
-            <span className="bannerIcon">
+            </a>
+            <a
+              className="bannerIcon"
+              href="https://www.linkedin.com/in/john-saique-a20797144/"
+              target={0}
+            >
               <FaLinkedinIn />
-            </span>
+            </a>
           </div>
         </div>
         <div>
