@@ -9,6 +9,9 @@ module.exports = {
     colors: {
       bodyColor: "#212428",
       lightText: "#c4cfde",
+      gray200: "#E5E7EB",
+      gray600: "#4B5563",
+      darkColor: "#000",
       boxBg: "linear-gradient(145deg, #1e2034, #23272b)",
       designColor: "#ff014f",
     },
