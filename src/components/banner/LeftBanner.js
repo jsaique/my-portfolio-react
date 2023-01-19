@@ -12,10 +12,10 @@ import { IoLogoJavascript } from "react-icons/io";
 
 const LeftBanner = () => {
   const [text] = useTypewriter({
-    words: ["Self-Taught.", "Coder.", "Software Developer."],
+    words: ["Self-Taught.", "Coder.", "Software Developer.", "Problem Solver"],
     loop: true,
-    typeSpeed: 80,
-    deleteSpeed: 70,
+    typeSpeed: 40,
+    deleteSpeed: 30,
     delaySpeed: 2000,
   });
   return (
