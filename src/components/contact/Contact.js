@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import Title from "../layouts/Title";
-import Contactleft from "./ContactLeft";
-import Contactright from "./ContactRight";
+import ContactLeft from "./ContactLeft";
+import ContactRight from "./ContactRight";
 
 const Contact = () => {
   return (
@@ -15,8 +15,8 @@ const Contact = () => {
 
       <div className="w-full">
         <div className="w-full h-auto flex justify-between">
-          <Contactleft />
-          <Contactright />
+          <ContactLeft />
+          <ContactRight />
         </div>
       </div>
     </section>
