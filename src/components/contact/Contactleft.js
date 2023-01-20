@@ -19,7 +19,7 @@ const Contactleft = () => {
         <h3 className="text-3xl font-bold text-lightColor">
           John Aries Saique
         </h3>
-        <p className="text-lg font-normal text-gray400">DGS Tech</p>
+        <p className="text-lg font-normal text-gray400">IT guy</p>
 
         <p>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do

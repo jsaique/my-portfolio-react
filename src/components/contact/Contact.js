@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import Title from "../layouts/Title";
-import Contactleft from "./Contactleft";
-import Contactright from "./Contactright";
+import Contactleft from "./ContactLeft";
+import Contactright from "./ContactRight";
 
 const Contact = () => {
   return (
