@@ -20,6 +20,8 @@ module.exports = {
       pink500: "#ec4899",
       red500: "#ef4444",
       yellow500: "#eab308",
+      orange500: "#f97316",
+      green500: "#22c55e",
       darkColor: "#000",
       lightColor: "#fff",
       trans: "transparent",
